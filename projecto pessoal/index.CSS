@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 40px 20px;
+}
+.produto {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.produto:hover {
+    transform: translateY(-5px);
+}
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.produto h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.produto p {
+    margin-top: 10px;
+    color: #666666;
+}
+.produto button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #343a40;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.produto button:hover {
+    background-color: #555555;
+}
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Find your art</h1>
+<nav>
+    <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+</header>
+
+<section id="sobre">
+<h2>Sobre</h2>
+<p>Find your art é uma empresa apaixonada por arte e dedicada a promover a expressão criativa em todas as suas formas. Também funciona como uma galeria de arte, exibindo obras de artistas locais e talentos emergentes. Através de eventos de arte e exposições, buscamos conectar artistas e entusiastas, criando uma comunidade vibrante e inspiradora.</p>
+</section>
+
